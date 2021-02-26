@@ -5,7 +5,7 @@
     background-size: cover;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
     .lead__illustration {
     max-width: 928px;
     height: 580px;
@@ -13,7 +13,7 @@
 }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .lead__illustration {
     max-width: 768px;
     height: 480px;
@@ -21,9 +21,9 @@
 }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .lead__illustration {
-    max-width: 320px;
+    width: 100%;
     height: 200px;
     background-image: url('../../../image/__image.svg');
 }

@@ -10,5 +10,12 @@
     .lead__caption {
         width: calc(100% - (2* 24px));
         margin: 0 auto;
+        margin-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__caption {
+        margin-left: 24px;
     }
 }

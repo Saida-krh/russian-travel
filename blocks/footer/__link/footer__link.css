@@ -8,7 +8,7 @@
     color: #FFFFFF;    
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     .footer__link {
         flex-direction: column;
         margin-bottom: 32px;
