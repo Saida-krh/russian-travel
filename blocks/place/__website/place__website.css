@@ -1,0 +1,13 @@
+.place__website {
+    list-style-type: none;
+    margin: 0;
+    align-self: end;
+    padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        width: calc(100% - (2 * 16px));
+        margin: 0 auto;
+    }
+}
