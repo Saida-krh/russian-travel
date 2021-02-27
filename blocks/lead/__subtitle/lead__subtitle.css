@@ -9,11 +9,20 @@
     max-width: 640px;
    }
 
- @media screen and (max-width: 320px) {
- .lead__subtitle {
-    font-size: 16px;
-    line-height: 20px;
-    padding-bottom: 40px;
-    max-width: 280px;
-     }
-}
+@media screen and (max-width: 1024px) {
+  .lead__subtitle {
+      font-size: 30px;
+      line-height: 36px;
+      padding-bottom: 56px;
+      max-width: 640px;
+   }
+ }
+
+ @media screen and (max-width: 768px) {
+  .lead__subtitle {
+     font-size: 16px;
+     line-height: 20px;
+     padding-bottom: 40px;
+     max-width: 280px;
+   }
+ }
