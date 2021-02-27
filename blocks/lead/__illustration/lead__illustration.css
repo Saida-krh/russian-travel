@@ -7,24 +7,21 @@
 
 @media screen and (max-width: 1280px) {
     .lead__illustration {
-    max-width: 928px;
+    max-width: 984px;
     height: 580px;
-    background-image: url('../../../image/__image.svg');
-}
+    }
 }
 
 @media screen and (max-width: 1023px) {
     .lead__illustration {
     max-width: 768px;
     height: 480px;
-    background-image: url('../../../image/__image.svg');
-}
+    }
 }
 
 @media screen and (max-width: 767px) {
     .lead__illustration {
     width: 100%;
     height: 200px;
-    background-image: url('../../../image/__image.svg');
-}
+    }
 }
