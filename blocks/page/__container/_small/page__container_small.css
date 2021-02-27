@@ -19,6 +19,6 @@
 
 @media screen and (max-width: 767px) {
     .page__container_small {
-        max-width: 100%
+        max-width: 100%;
     }
 }
