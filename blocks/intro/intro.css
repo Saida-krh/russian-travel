@@ -1,10 +1,18 @@
 .intro {
     display: flex;
     flex-direction: column;
+    margin-top: 114px;
 }
+
 
 @media screen and (max-width: 767px) {
     .intro {
         width: calc(100% - (2 * 16px));
+        margin-top: 88px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .intro {
+        margin-top: 64px;
     }
 }
