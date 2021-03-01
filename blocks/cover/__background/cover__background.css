@@ -9,7 +9,6 @@
     text-decoration-line: none;
     position: relative;
     z-index: 1;
-    margin: 92px auto 92px auto;
     background-size: cover;
     background-position: center;
  }
@@ -52,7 +51,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media (min-width: 425px) and (max-width: 767px) {
     .cover__background {
         min-height: 260px;
     }
